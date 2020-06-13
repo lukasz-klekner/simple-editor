@@ -1,13 +1,28 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+@import "modules/header.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+*::after,
+::before {
+  box-sizing: inherit;
+}
+
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: #fff;
+  color: #000;
+}
+
+.main {
+  background-color: #e5e5e5;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   min-height: 100vh;
 }
