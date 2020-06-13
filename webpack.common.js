@@ -5,15 +5,13 @@ module.exports = {
   /* here you can define another js file */
   entry: {
     index: "./src/js/index.js",
-    another: "./src/js/another.js",
   },
   output: {
     filename: "[name].[hash:8].js",
     path: __dirname + "/dist",
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: [/.js$/],
         exclude: /(node_modules)/,
         use: {
@@ -29,14 +27,12 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "img/[name].[hash:8].[ext]",
-            },
+        use: [{
+          loader: "file-loader",
+          options: {
+            name: "img/[name].[hash:8].[ext]",
           },
-        ],
+        }, ],
       },
     ],
   },
@@ -47,7 +43,9 @@ module.exports = {
 
   plugins: [
     new CopyWebpackPlugin({
-      patterns: [{ from: "public" }],
+      patterns: [{
+        from: "public"
+      }],
     }),
 
     /* here you can define another html file and its dependencies */
@@ -56,12 +54,6 @@ module.exports = {
       inject: true,
       chunks: ["index"],
       filename: "index.html",
-    }),
-    new HtmlWebpackPlugin({
-      template: "./src/pages/another.html",
-      inject: true,
-      chunks: ["index", "another"],
-      filename: "another.html",
     }),
   ],
 };
