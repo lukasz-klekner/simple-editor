@@ -1,8 +1,10 @@
 @import "~normalize.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 @import "_variables";
 @import "modules/header.scss";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "modules/form.scss";
+
 
 * {
   box-sizing: border-box;
