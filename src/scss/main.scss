@@ -2,6 +2,7 @@
 
 @import "_variables";
 @import "modules/header.scss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 * {
   box-sizing: border-box;
@@ -21,8 +22,8 @@ body {
 .main {
   background-color: #e5e5e5;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
   min-height: 100vh;
+  padding-left: 104px;
 }
