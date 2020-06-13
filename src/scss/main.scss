@@ -5,6 +5,7 @@
 @import "modules/header.scss";
 @import "modules/form.scss";
 @import "modules/button.scss";
+@import "modules/switch.scss";
 
 
 * {
@@ -27,6 +28,7 @@ body {
 }
 
 .main {
+  position: relative;
   background-color: #e5e5e5;
   display: flex;
   flex-direction: column;
