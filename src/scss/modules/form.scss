@@ -1,7 +1,19 @@
 .message {
-    width: 684px;
+    width: 284px;
     height: 254px;
     padding: 16px;
     border-radius: 5px;
     margin-bottom: 67px;
+
+    @media (min-width: 320px) {
+        width: 284px;
+    }
+
+    @media (min-width: 440px) {
+        width: 354px;
+    }
+
+    @media (min-width: 764px) {
+        width: 684px;
+    }
 }

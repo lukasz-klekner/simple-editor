@@ -33,7 +33,11 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
-  width: 1000px;
-  height: 700px;
-  padding-left: 104px;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 1000px;
+    height: 700px;
+    padding-left: 104px;
+  }
 }
