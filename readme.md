@@ -2,6 +2,9 @@
 
 Simple editor that saves input from text area in localstorage.
 
+![Desktop with subtitle: "Type anything"](og.png)
+
+
 ## Available scripts
 
 `npm run start` - runs development mode
