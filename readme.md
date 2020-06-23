@@ -2,7 +2,7 @@
 
 Simple editor that saves input from text area in localstorage.
 
-![Desktop with subtitle: "Type anything"](og.png)
+![Desktop with subtitle: "Type anything"](public/og.png)
 
 
 ## Available scripts
