@@ -1,9 +1,13 @@
-# The simple editor
-
-Simple editor that saves input from text area in localstorage.
-
 ![Desktop with subtitle: "Type anything"](public/og.png)
 
+# SIMPLE EDITOR
+
+Simple editor that saves input from text area in local storage.
+
+## TOOLS
+
+- JS: Local storage
+- HTML + CSS
 
 ## Available scripts
 
